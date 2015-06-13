@@ -8,15 +8,15 @@
 
 import Foundation
 
-class Number {
+public class Number {
     
     var number:Int
     
-    init(numberInit:Int){
+    public init(numberInit:Int){
         number = numberInit
     }
     
-    func isItPrime() -> Bool{
+    public func isItPrime() -> Bool{
         var isPrime = true
         if (number == 0 || number == 1){
             isPrime = false

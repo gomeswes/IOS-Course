@@ -8,6 +8,7 @@
 
 import UIKit
 import XCTest
+import Is_it_prime
 
 class Is_it_primeTests: XCTestCase {
     
@@ -31,6 +32,20 @@ class Is_it_primeTests: XCTestCase {
         self.measureBlock() {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    
+    func testNumber_IsNotPrime(){
+        var target = Number(numberInit:0)
+        var actual = target.isItPrime()
+        XCTAssertFalse(actual, "Pass")
+        
+    }
+    
+    func testNumber_IsPrime(){
+        var target = Number(numberInit:7)
+        var actual = target.isItPrime()
+        XCTAssert(actual, "Pass")
     }
     
 }
