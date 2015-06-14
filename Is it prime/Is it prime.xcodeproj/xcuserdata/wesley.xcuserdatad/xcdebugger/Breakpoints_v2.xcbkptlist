@@ -15,7 +15,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
             endingLineNumber = "39"
-            landmarkName = "testNumber_IsPrime()"
+            landmarkName = "testNumber_IsNotPrime()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
